@@ -42,7 +42,7 @@ void main() {
     );
     vec4 pos = ProjMat * ModelViewMat * vec4(Position, 1.0);
     ivec2 markerPos = ivec2(0, 0);
-    if (!(fog_distance(Position, FogShape) < 10.0 || (pos.z > 0 && pos.x > -pos.z && pos.x < pos.z && pos.y > -pos.z && pos.y < pos.z))){
+    if (!(fog_distance(Position, 0) < 20.0 || (pos.z > 0 && pos.x > -pos.z && pos.x < pos.z && pos.y > -pos.z && pos.y < pos.z))){
         isMarker = 2;
     }
     if (isMarker == 1) {
