@@ -1,5 +1,5 @@
 {
-	"parent": "minecraft:item/generated",
+	"parent": "slender:item/page",
 	"textures": {
 		"layer0": "slender:item/page_9"
 	}

@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"layer0": "slender:item/page_1"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 7.5],
+			"to": [14, 16, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#layer0"},
+				"east": {"uv": [0, 0, 1, 16], "texture": "#layer0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#layer0"},
+				"west": {"uv": [0, 0, 1, 16], "texture": "#layer0"},
+				"up": {"uv": [0, 0, 12, 1], "texture": "#layer0"},
+				"down": {"uv": [0, 0, 12, 1], "texture": "#layer0"}
+			}
+		}
+	]
+}
