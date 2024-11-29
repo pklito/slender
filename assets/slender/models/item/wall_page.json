@@ -1,13 +1,14 @@
 {
+	"credit": "Made with Blockbench",
 	"textures": {
-		"layer0": "slender:item/texture",
-		"particle": "slender:item/texture"
+		"particle": "slender:item/texture",
+		"layer0": "slender:item/texture"
 	},
 	"elements": [
 		{
-			"from": [2, 0, 7.5],
-			"to": [14, 16, 8.5],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"from": [2, 0, 17.5],
+			"to": [14, 16, 18.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 18]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#layer0"},
 				"east": {"uv": [0, 0, 1, 16], "texture": "#layer0"},

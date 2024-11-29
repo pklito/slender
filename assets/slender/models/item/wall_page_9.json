@@ -1,0 +1,6 @@
+{
+	"parent": "slender:item/wall_page",
+	"textures": {
+		"layer0": "slender:item/page_9"
+	}
+}
