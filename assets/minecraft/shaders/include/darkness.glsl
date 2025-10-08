@@ -4,7 +4,7 @@
 #moj_import <minecraft:lightmap_inputs.glsl>
 
 vec4 get_vertex_light(sampler2D Sampler2, vec4 gl_Position, ivec2 UV2, vec2 ScreenSize, float FogEnd, float GameTime) {
-    vec4 light = minecraft_sample_lightmap(Sampler2, ivec2(UV2.x,max(160-15*gl_Position.z,0)));
+    vec4 light = minecraft_sample_lightmap(Sampler2, ivec2(UV2.x,2*max(160-15*gl_Position.z,0)));
 
     float has_blindness = isBlind(FogEnd) ? 1 : 0;
     float has_night_vision = getNightVisionFactor(Sampler2);
