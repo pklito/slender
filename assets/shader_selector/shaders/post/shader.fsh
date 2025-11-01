@@ -41,7 +41,7 @@ void main() {
     vec3 greyscale =  vec3(random(vec2(floor(uv.x*500)/500, floor(uv.y*500)/500)*(1 + GameTime)));
     
     // Apply greyscale color
-    float greyscaleAmount = readChannel(SHADER_NOISE_CHANNEL)/1.5;
+    float greyscaleAmount = readChannel(SHADER_NOISE_CHANNEL)/1.0;
     fragColor.rgb = mix(fragColor.rgb, greyscale, greyscaleAmount);
 
 //#define DEBUG
