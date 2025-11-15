@@ -1,0 +1,35 @@
+{
+  
+  "hand_animation_on_swap": false,
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 1,
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "slender:item/flashlight_unclicked"
+        },
+        "on_true": {
+          "type": "minecraft:empty"
+        }
+      }
+      ,
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "on_false": {
+            "type": "model",
+            "model": "slender:item/flashlight_off"
+        },
+        "on_true": {
+            "type": "model",
+            "model": "slender:item/flashlight"
+        }
+      }
+    ]
+  }
+}
