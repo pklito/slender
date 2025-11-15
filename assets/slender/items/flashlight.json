@@ -7,7 +7,7 @@
       {
         "type": "minecraft:condition",
         "property": "minecraft:custom_model_data",
-        "index": 1,
+        "index": 0,
         "on_false": {
           "type": "minecraft:model",
           "model": "slender:item/flashlight_unclicked"
@@ -22,12 +22,16 @@
         "property": "minecraft:custom_model_data",
         "index": 0,
         "on_false": {
-            "type": "model",
-            "model": "slender:item/flashlight_off"
+          "type": "minecraft:model",
+          "model": "slender:item/flashlight_off"
         },
         "on_true": {
-            "type": "model",
-            "model": "slender:item/flashlight"
+          "property": "custom_model_data",
+          "type": "minecraft:range_dispatch",
+          "entries": [{"threshold": 0,"model": {"type": "model", "model": "slender:item/flashlight_off"}},
+            {"threshold": 1,
+          "model": {"type": "model", "model": "slender:item/flashlight"}}
+          ]
         }
       }
     ]
