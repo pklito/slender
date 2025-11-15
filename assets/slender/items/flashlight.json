@@ -33,11 +33,13 @@
           "index": 0,
           "type": "minecraft:range_dispatch",
           "entries": [
-            {"threshold": 0.0,"model": {"type": "model", "model": "slender:item/flashlight_bulb","tints": [{"type": "constant","value": 3479319}]}},
-            {"threshold": 1.0,"model": {"type": "model", "model": "slender:item/flashlight_bulb","tints": [{"type": "constant","value": 6715230}]}},
+            {"threshold": 0.0,"model": {"type": "model", "model": "slender:item/flashlight_off","tints": [{"type": "constant","value": 6715230}]}},
+            {"threshold": 0.01,"model": {"type": "model", "model": "slender:item/flashlight_bulb","tints": [{"type": "constant","value": 6715230}]}},
+            {"threshold": 5,"model": {"type": "model", "model": "slender:item/flashlight_bulb","tints": [{"type": "constant","value": 8753536}]}},
+            {"threshold": 10,"model": {"type": "model", "model": "slender:item/flashlight_bulb","tints": [{"type": "constant","value": 10793375}]}},
             {"threshold": 25.0,"model": {"type": "model", "model": "slender:item/flashlight_bulb","tints": [{"type": "constant","value": 13416375}]}},
             {"threshold": 50.0,"model": {"type": "model", "model": "slender:item/flashlight_bulb","tints": [{"type": "constant","value": 14530230}]}},
-            {"threshold": 70.0,"model": {"type": "model", "model": "slender:item/flashlight_bulb","tints": [{"type": "constant","value": 10551296}]}}
+            {"threshold": 70.0,"model": {"type": "model", "model": "slender:item/flashlight_bulb","tints": [{"type": "constant","value": 16777215}]}}
           ]
         }
       }
